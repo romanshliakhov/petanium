@@ -1,0 +1,47 @@
+.mobile {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+
+  &__menu {
+    position: fixed;
+    top: 75px;
+    left: 0;
+    transform: translateX(100%);
+    width: 100vw;
+    height: calc(100% - 75px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 10px;
+    background-color: rgba(67, 96, 124, 0.5);
+    padding: 15px 20px;
+    transition: all .4s;
+    visibility: hidden;
+    overflow-y: auto;
+
+    &.active {
+      transform: translate(0);
+      visibility: visible;
+    }
+  }
+
+  &__menu-wrapp {
+    width: 100%;
+    height: fit-content;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 30px;
+
+    .registration__greeating::before {
+      display: none;
+    }
+  }
+}
