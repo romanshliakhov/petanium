@@ -1,9 +1,49 @@
-footer {
-
-}
-
 .footer {
+  border-top: 4px solid #242d39;
+  background-color: #1a222c;
 
+  &__wrapp {
+    padding: 11px 0 35px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__connections {
+    max-width: 441px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(231, 231, 231);
+    line-height: 120%;
+  }
+
+  &__socials {
+    padding: 0 42px;
+    grid-gap: 28px;
+  }
+
+  &__nav {
+    height: 84px;
+    border-left: 1px solid #242d39;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 0 33px;
+    padding-left: 37px;
+  }
+
+  &__nav-item:last-child {
+    width: 100%;
+  }
+
+  &__nav-link {
+    font-family: var(--font-family-futura);
+    font-size: 12px;
+    line-height: 120%;
+    color: #81858a;
+  }
 }
 
 

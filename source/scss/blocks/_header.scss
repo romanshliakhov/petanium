@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   background-image: url(../img/main.png);
   height: 526px;
   width: 100%;
@@ -6,13 +7,38 @@
   background-size: 100% 100%;
   background-position: center;
 
+  &::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/gradient-left.png);
+    background-repeat: no-repeat;
+    width: 474px;
+    // width: Min(24.688vw, 474px);
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    background-image: url(../img/gradient-right.png);
+    background-repeat: no-repeat;
+    width: 756px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
   &__head {
+    position: relative;
     height: 53px;
     display: flex;
     align-items: center;
     grid-gap: 36px;
     border-bottom: 2px solid #029fdf;
     background-color: rgba(26, 34, 44, 0.8);
+    z-index: 1;
   }
 
   &__icon {
@@ -34,6 +60,7 @@
   }
 
   &__link {
+    font-family: var(--font-family-tahoma);
     font-size: 16px;
     color: #d6e4e4;
     line-height: 120%;
@@ -49,6 +76,7 @@
 
   &__content {
     position: relative;
+    z-index: 1;
   }
 
   &__content-top {

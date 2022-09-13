@@ -149,6 +149,7 @@ input[type="number"] {
 }
 
 .title {
+  font-family: var(--font-family-futura);
   font-size: 14px;
   line-height: 120%;
   color: rgb(255, 254, 254);
@@ -157,6 +158,7 @@ input[type="number"] {
 }
 
 .description {
+  font-family: var(--font-family-exo);
   font-size: 14px;
   line-height: 120%;
   text-transform: uppercase;
@@ -178,4 +180,8 @@ input[type="number"] {
   // background-image: -ms-linear-gradient( 90deg, rgb(253,161,0) 0%, rgb(253,198,0) 100%);
   background: linear-gradient( 90deg, rgb(253,161,0) 0%, rgb(253,198,0) 100%);
   box-shadow: 0px 0px 23.45px 11.55px rgba(253, 198, 0, 0.004),inset 0px 0px 0px 2px rgba(255, 198, 0, 0.004);
+  font-family: var(--font-family-exo);
+  font-size: 18px;
+  line-height: 120%;
+
 }
