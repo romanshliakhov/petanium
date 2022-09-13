@@ -4,17 +4,6 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  font-family: var(--font-family-verdana);
-  font-size: 16px;
-  line-height: 120%;
-  font-weight: 400;
-  color: var(--color-blue);
-  font-style: normal;
-  overflow-x: hidden;
-
-  @media (max-width: 768px) {
-    font-size: 14px;
-  }
 }
 
 html {
@@ -143,33 +132,15 @@ input[type="number"] {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   width: 100%;
-
-  &__dialog {
-    background-color: var(--color-blue-bg);
-    justify-content: center;
-  }
 }
 
 .container {
-  max-width: 1502px;
+  max-width: 1180px;
   width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 0 15px;
-
-  &--mode {
-    max-width: 1210px;
-  }
-
-  &__small {
-    max-width: 1000px;
-  }
-}
-
-svg {
-  fill: var(--color-blue);
+  padding: 0 10px;
 }
 
 .body-scroll {
@@ -177,8 +148,34 @@ svg {
   overflow-y: hidden;
 }
 
-.ui {
+.title {
+  font-size: 14px;
+  line-height: 120%;
+  color: rgb(255, 254, 254);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.51);
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: rgb(255, 254, 254);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.37);
+}
+
+.play {
+  height: 80px;
+  width: 210px;
   display: flex;
-  flex-direction: column;
-  grid-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  border: 6px solid rgba(0, 0, 0, 0.49);
+  border: 6px solid transparent;
+  border-radius: 13px;
+  // background-image: -moz-linear-gradient( 90deg, rgb(253,161,0) 0%, rgb(253,198,0) 100%);
+  // background-image: -webkit-linear-gradient( 90deg, rgb(253,161,0) 0%, rgb(253,198,0) 100%);
+  // background-image: -ms-linear-gradient( 90deg, rgb(253,161,0) 0%, rgb(253,198,0) 100%);
+  background: linear-gradient( 90deg, rgb(253,161,0) 0%, rgb(253,198,0) 100%);
+  box-shadow: 0px 0px 23.45px 11.55px rgba(253, 198, 0, 0.004),inset 0px 0px 0px 2px rgba(255, 198, 0, 0.004);
 }

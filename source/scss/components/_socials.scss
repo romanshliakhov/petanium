@@ -1,0 +1,14 @@
+.socials {
+  display: flex;
+  align-items: center;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49px;
+    height: 49px;
+    border-radius: 10px;
+    border: 4px solid #fff;
+  }
+}

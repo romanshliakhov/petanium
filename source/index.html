@@ -7,7 +7,56 @@
     @include('partials/header.html',{})
 
     <main class="main">
-      <p>test</p>
+      <nav class="navigation">
+        <div class="container">
+          <div class="navigation__wrapper">
+            <ul class="navigation__list">
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--active" href="#">ГЛАВНАЯ</a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--innactive" href="#">
+                  ОБ ИГРЕ
+                  <div class="navigation__link-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link" href="#">
+                  НОВОСТИ
+                  <div class="navigation__link-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--innactive" href="#">МАТЕРИАЛЫ</a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link" href="#">
+                  ВИКИ
+                  <div class="navigation__link-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--innactive" href="#">РЕЙТИНГИ</a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--innactive" href="#">СООБЩЕСТВО</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </main>
 
     @include('partials/footer.html',{})

@@ -1,7 +1,86 @@
-<header>
-  <div class="container">
-    <div class="header">
+<header class="header">
+  <div class="header__head">
+    <a class="header__icon" href="../index.html">
+      <picture>
+        <source type='image/webp' srcset='img/icons/icon.webp'>
+        <img width='35' height='33' src='img/icons/icon.png' alt='icon'>
+      </picture>
+    </a>
 
+    <ul class="header__links">
+      <li class="header__link-item">
+        <a class="header__link" href="#">
+          <span>Блог разработчиков</span>
+        </a>
+      </li>
+      <li class="header__link-item">
+        <a class="header__link" href="#">
+          <span>Поддержка</span>
+        </a>
+      </li>
+      <li class="header__link-item">
+        <a class="header__link" href="#">
+          <span>Моя учётная запись</span>
+        </a>
+      </li>
+    </ul>
+
+    <button>Русский</button>
+  </div>
+
+  <div class="header__content">
+    <ul class="header__socials socials">
+      <li class="socials__link-item">
+        <a class="socials__link" href="#">
+          <svg width='28' height='28'>
+            <use href='img/sprite/sprite.svg#vk'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials__link-item">
+        <a class="socials__link" href="#">
+          <svg width='28' height='28'>
+            <use href='img/sprite/sprite.svg#odnoklassniki'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials__link-item">
+        <a class="socials__link" href="#">
+          <svg width='28' height='28'>
+            <use href='img/sprite/sprite.svg#facebook'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials__link-item">
+        <a class="socials__link" href="#">
+          <svg width='28' height='28'>
+            <use href='img/sprite/sprite.svg#steam'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials__link-item">
+        <a class="socials__link" href="#">
+          <svg width='28' height='28'>
+            <use href='img/sprite/sprite.svg#youtube'></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <div class="header__content-top">
+      <div class="header__logo">
+        <picture>
+          <source type='image/webp' srcset='img/logo.webp'>
+          <img width='440' height='121' src='img/logo.png' alt='logo'>
+        </picture>
+      </div>
+      <h1 class="header__title title">МНОГОПОЛЬЗОВАТЕЛЬСКАЯ ОНЛАЙН ИГРА</h1>
+    </div>
+
+    <div class="header__content-bot">
+      <button class="header__bot-btn play">Играть</button>
+      <p class="header__descr description">В БРАУЗЕРАХ ПК И ПЛАНШЕТАХ</p>
     </div>
   </div>
+
 </header>
