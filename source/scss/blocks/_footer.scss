@@ -43,6 +43,11 @@
     font-size: 12px;
     line-height: 120%;
     color: #81858a;
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: #e7e7e7;
+    }
   }
 }
 
