@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+@include('partials/head.html',{})
+
+<body>
+  <div class="wrapper">
+    @include('partials/header.html',{})
+
+    <main class="main">
+      <nav class="navigation">
+        <div class="container">
+          <div class="navigation__wrapper">
+            <ul class="navigation__list">
+              <li class="navigation__list-item">
+                <a class="navigation__link" href="#">ГЛАВНАЯ</a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--innactive" href="#">
+                  ОБ ИГРЕ
+                  <div class="navigation__link-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link" href="#">
+                  НОВОСТИ
+                  <div class="navigation__link-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--innactive" href="#">МАТЕРИАЛЫ</a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--active" href="#">
+                  ВИКИ
+                  <div class="navigation__link-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--innactive" href="#">РЕЙТИНГИ</a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="navigation__link navigation__link--innactive" href="#">СООБЩЕСТВО</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="wiki">
+        <div class="container">
+          <div class="wiki__wrapp">
+            <div class="breadcrumbs">
+              <a class="breadcrumbs__prev" href="/">Petanium</a>
+              <span class="breadcrumbs__current">Вики</span>
+            </div>
+
+            <nav class="wiki__navigations">
+
+            </nav>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="pets">
+        <div class="pets__top">
+          <div class="container">
+            <div class="pets__head">
+              <div class="subtitle">ПИТОМЦЫ</div>
+              <a class="pets__btn-all all" href="#">ПОСМОТРЕТЬ ВСЕХ</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="pets__slider swiper-container">
+          <div class="pets__arrow pets__arrow-prev"></div>
+          <ul class="swiper-wrapper">
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/mentayl.webp'>
+                    <img width='228' height='354' src='img/pets/mentayl.png' alt='ментайл'>
+                  </picture>
+                </div>
+              </div>
+            </li>
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/Fizer.webp'>
+                    <img width='228' height='354' src='img/pets/Fizer.png' alt='файзер'>
+                  </picture>
+                </div>
+              </div>
+            </li>
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/Ignis.webp'>
+                    <img width='228' height='354' src='img/pets/Ignis.png' alt='игнис'>
+                  </picture>
+                </div>
+              </div>
+            </li>
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/mentayl.webp'>
+                    <img width='228' height='354' src='img/pets/mentayl.png' alt='ментайл'>
+                  </picture>
+                </div>
+              </div>
+            </li>
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/Fizer.webp'>
+                    <img width='228' height='354' src='img/pets/Fizer.png' alt='файзер'>
+                  </picture>
+                </div>
+              </div>
+            </li>
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/Ignis.webp'>
+                    <img width='228' height='354' src='img/pets/Ignis.png' alt='игнис'>
+                  </picture>
+                </div>
+              </div>
+            </li>
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/mentayl.webp'>
+                    <img width='228' height='354' src='img/pets/mentayl.png' alt='ментайл'>
+                  </picture>
+                </div>
+              </div>
+            </li>
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/Fizer.webp'>
+                    <img width='228' height='354' src='img/pets/Fizer.png' alt='файзер'>
+                  </picture>
+                </div>
+              </div>
+            </li>
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/Ignis.webp'>
+                    <img width='228' height='354' src='img/pets/Ignis.png' alt='игнис'>
+                  </picture>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="pets__arrow pets__arrow-next"></div>
+        </div>
+      </section>
+
+
+
+    </main>
+
+    @include('partials/footer.html',{})
+    <!-- @include('partials/modals.html',{}) -->
+  </div>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

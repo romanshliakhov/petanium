@@ -62,8 +62,14 @@
   &__link {
     font-family: var(--font-family-tahoma);
     font-size: 16px;
-    color: #d6e4e4;
+    color: #7bc6dd;
     line-height: 120%;
+    transition: all 0.4s ease;
+
+    &:hover,
+    &:active {
+      color: #b9edfc;
+    }
   }
 
   &__socials {

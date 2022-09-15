@@ -1,0 +1,18 @@
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  grid-gap: 52px;
+
+  &__btn {
+    color: #8fe7f9;
+    background-color: #109bd5;
+    grid-gap: 13px;
+    padding: 14px 26px 16px 31px;
+    &:hover,
+    &:active {
+      background-color: #35b3e8;
+      color: #fff;
+    }
+  }
+}

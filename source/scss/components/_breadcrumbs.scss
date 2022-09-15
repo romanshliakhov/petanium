@@ -1,0 +1,36 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  grid-gap: 25px;
+  user-select: none;
+  font-family: var(--font-family-futura);
+  font-size: 15px;
+  line-height: 120%;
+  color: #225b9a;
+  padding: 15px 0 9px;
+
+
+  &__prev {
+    position: relative;
+    white-space: nowrap;
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-image: var(--breadcrumbs-arrow);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 8px;
+      height: 7px;
+      right: -9px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &__current {
+    white-space: nowrap;
+  }
+}
+

@@ -1,0 +1,12 @@
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 51px 17px 35px;
+  font-family: var(--font-family-tahoma);
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+}
