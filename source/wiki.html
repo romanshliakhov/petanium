@@ -12,7 +12,7 @@
           <div class="navigation__wrapper">
             <ul class="navigation__list">
               <li class="navigation__list-item">
-                <a class="navigation__link" href="#">ГЛАВНАЯ</a>
+                <a class="navigation__link" href="/">ГЛАВНАЯ</a>
               </li>
               <li class="navigation__list-item">
                 <a class="navigation__link navigation__link--innactive" href="#">
@@ -25,7 +25,7 @@
                 </a>
               </li>
               <li class="navigation__list-item">
-                <a class="navigation__link" href="#">
+                <a class="navigation__link" href="./news.html">
                   НОВОСТИ
                   <div class="navigation__link-burger">
                     <span></span>
@@ -38,7 +38,7 @@
                 <a class="navigation__link navigation__link--innactive" href="#">МАТЕРИАЛЫ</a>
               </li>
               <li class="navigation__list-item">
-                <a class="navigation__link navigation__link--active" href="#">
+                <a class="navigation__link navigation__link--active" href="./wiki.html">
                   ВИКИ
                   <div class="navigation__link-burger">
                     <span></span>
@@ -67,7 +67,40 @@
             </div>
 
             <nav class="wiki__navigations">
+              <div class="wiki__navitations__details">
+                <div class="wiki__nav-title">ЗНАКОМСТВО С ИГРОЙ</div>
 
+                <ul class="wiki__nav-list">
+                  <li>Введение</li>
+                  <li>Игровой мир</li>
+                  <li>выбор стартового питомца</li>
+                </ul>
+              </div>
+
+              <div class="wiki__navitations__details">
+                <div class="wiki__nav-title">ИГРОВОЙ ПРОЦЕСС</div>
+
+                <ul class="wiki__nav-list">
+                  <li>Основы</li>
+                  <li>Ведение боя</li>
+                  <li>Объекты</li>
+                  <li>PvP: игрок против игрока</li>
+                  <li>Подземелья</li>
+                  <li>Асгард</li>
+                </ul>
+              </div>
+
+              <div class="wiki__navitations__details">
+                <div class="wiki__nav-title">ПРЕДМЕТЫ</div>
+
+                <ul class="wiki__nav-list">
+                  <li>Инвентарь</li>
+                  <li>Предметы и экиперовка</li>
+                  <li>Костюмы</li>
+                  <li>Ремесло</li>
+                  <li>Модификаторы</li>
+                </ul>
+              </div>
             </nav>
           </div>
         </div>
@@ -84,101 +117,248 @@
           </div>
 
         </div>
+
         <div class="pets__slider swiper-container">
-          <div class="pets__arrow pets__arrow-prev"></div>
-          <ul class="swiper-wrapper">
+          <div class="pets__slider-arrow pets__slider-arrow--prev">
+              <svg width='41' height='59'>
+                <use href='img/sprite/sprite.svg#chevron'></use>
+              </svg>
+          </div>
+          <ul class="pets__swiper-wrapper swiper-wrapper">
             <li class="pets__slider-slide swiper-slide">
               <div class="pet">
+                <div class="pet__head">
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/grass.webp'>
+                      <img width='24' height='24' src='img/genes/grass.png' alt='ген травы'>
+                    </picture>
+                  </div>
+                </div>
+                <div class="pet__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/pets/Gibba.webp'>
+                    <img width='228' height='354' src='img/pets/Gibba.png' alt='Гибба'>
+                  </picture>
+                </div>
+                <div class="pet__info">
+                  <div class="pet__name">АМФИЗАВР</div>
+                  <a class="pet__details" href="#">ПОДРОБНЕЕ</a>
+                </div>
+              </div>
+            </li>
+            <li class="pets__slider-slide swiper-slide">
+              <div class="pet">
+                <div class="pet__head">
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/psycho.webp'>
+                      <img width='24' height='24' src='img/genes/psycho.png' alt='ген ген психический'>
+                    </picture>
+                  </div>
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/dark.webp'>
+                      <img width='24' height='24' src='img/genes/dark.png' alt='ген тьмы'>
+                    </picture>
+                  </div>
+                </div>
                 <div class="pet__image">
                   <picture>
                     <source type='image/webp' srcset='img/pets/mentayl.webp'>
-                    <img width='228' height='354' src='img/pets/mentayl.png' alt='ментайл'>
+                    <img width='228' height='354' src='img/pets/mentayl.png' alt='МЕНТАЙЛ'>
                   </picture>
+                </div>
+                <div class="pet__info">
+                  <div class="pet__name">МЕНТАЙЛ</div>
+                  <a class="pet__details" href="#">ПОДРОБНЕЕ</a>
                 </div>
               </div>
             </li>
             <li class="pets__slider-slide swiper-slide">
               <div class="pet">
+                <div class="pet__head">
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/water.webp'>
+                      <img width='24' height='24' src='img/genes/water.png' alt='ген воды'>
+                    </picture>
+                  </div>
+                </div>
                 <div class="pet__image">
                   <picture>
                     <source type='image/webp' srcset='img/pets/Fizer.webp'>
-                    <img width='228' height='354' src='img/pets/Fizer.png' alt='файзер'>
+                    <img width='228' height='354' src='img/pets/Fizer.png' alt='ФИЗАР'>
                   </picture>
+                </div>
+                <div class="pet__info">
+                  <div class="pet__name">ФИЗАР</div>
+                  <a class="pet__details" href="#">ПОДРОБНЕЕ</a>
                 </div>
               </div>
             </li>
             <li class="pets__slider-slide swiper-slide">
               <div class="pet">
+                <div class="pet__head">
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/fire.webp'>
+                      <img width='24' height='24' src='img/genes/fire.png' alt='ген огня'>
+                    </picture>
+                  </div>
+                </div>
                 <div class="pet__image">
                   <picture>
                     <source type='image/webp' srcset='img/pets/Ignis.webp'>
-                    <img width='228' height='354' src='img/pets/Ignis.png' alt='игнис'>
+                    <img width='228' height='354' src='img/pets/Ignis.png' alt='ИГНИС '>
                   </picture>
+                </div>
+                <div class="pet__info">
+                  <div class="pet__name">ИГНИС </div>
+                  <a class="pet__details" href="#">ПОДРОБНЕЕ</a>
                 </div>
               </div>
             </li>
             <li class="pets__slider-slide swiper-slide">
               <div class="pet">
+                <div class="pet__head">
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/bug.webp'>
+                      <img width='24' height='24' src='img/genes/bug.png' alt='ген насекомого'>
+                    </picture>
+                  </div>
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/electro.webp'>
+                      <img width='24' height='24' src='img/genes/electro.png' alt='ген электрический'>
+                    </picture>
+                  </div>
+                </div>
                 <div class="pet__image">
                   <picture>
-                    <source type='image/webp' srcset='img/pets/mentayl.webp'>
-                    <img width='228' height='354' src='img/pets/mentayl.png' alt='ментайл'>
+                    <source type='image/webp' srcset='img/pets/Cryze.webp'>
+                    <img width='228' height='354' src='img/pets/Cryze.png' alt='КРАЙЗ'>
                   </picture>
+                </div>
+                <div class="pet__info">
+                  <div class="pet__name">КРАЙЗ</div>
+                  <a class="pet__details" href="#">ПОДРОБНЕЕ</a>
                 </div>
               </div>
             </li>
             <li class="pets__slider-slide swiper-slide">
               <div class="pet">
+                <div class="pet__head">
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/ice.webp'>
+                      <img width='24' height='24' src='img/genes/ice.png' alt='ген льда'>
+                    </picture>
+                  </div>
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/poison.webp'>
+                      <img width='24' height='24' src='img/genes/poison.png' alt='ген яда'>
+                    </picture>
+                  </div>
+                </div>
                 <div class="pet__image">
                   <picture>
-                    <source type='image/webp' srcset='img/pets/Fizer.webp'>
-                    <img width='228' height='354' src='img/pets/Fizer.png' alt='файзер'>
+                    <source type='image/webp' srcset='img/pets/Orlock.webp'>
+                    <img width='228' height='354' src='img/pets/Orlock.png' alt='ОРЛОК'>
                   </picture>
+                </div>
+                <div class="pet__info">
+                  <div class="pet__name">ОРЛОК</div>
+                  <a class="pet__details" href="#">ПОДРОБНЕЕ</a>
                 </div>
               </div>
             </li>
             <li class="pets__slider-slide swiper-slide">
               <div class="pet">
+                <div class="pet__head">
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/grass.webp'>
+                      <img width='24' height='24' src='img/genes/grass.png' alt='ген травы'>
+                    </picture>
+                  </div>
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/poison.webp'>
+                      <img width='24' height='24' src='img/genes/poison.png' alt='ген яда'>
+                    </picture>
+                  </div>
+                </div>
                 <div class="pet__image">
                   <picture>
-                    <source type='image/webp' srcset='img/pets/Ignis.webp'>
-                    <img width='228' height='354' src='img/pets/Ignis.png' alt='игнис'>
+                    <source type='image/webp' srcset='img/pets/Amfizavr.webp'>
+                    <img width='228' height='354' src='img/pets/Amfizavr.png' alt='АМФИЗАВР'>
                   </picture>
+                </div>
+                <div class="pet__info">
+                  <div class="pet__name">АМФИЗАВР</div>
+                  <a class="pet__details" href="#">ПОДРОБНЕЕ</a>
                 </div>
               </div>
             </li>
             <li class="pets__slider-slide swiper-slide">
               <div class="pet">
+                <div class="pet__head">
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/fire.webp'>
+                      <img width='24' height='24' src='img/genes/fire.png' alt='ген огня'>
+                    </picture>
+                  </div>
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/ghost.webp'>
+                      <img width='24' height='24' src='img/genes/ghost.png' alt='ген призрака'>
+                    </picture>
+                  </div>
+                </div>
                 <div class="pet__image">
                   <picture>
-                    <source type='image/webp' srcset='img/pets/mentayl.webp'>
-                    <img width='228' height='354' src='img/pets/mentayl.png' alt='ментайл'>
+                    <source type='image/webp' srcset='img/pets/Hellkin.webp'>
+                    <img width='228' height='354' src='img/pets/Hellkin.png' alt='ХЕЛЛКИН'>
                   </picture>
+                </div>
+                <div class="pet__info">
+                  <div class="pet__name">ХЕЛЛКИН</div>
+                  <a class="pet__details" href="#">ПОДРОБНЕЕ</a>
                 </div>
               </div>
             </li>
             <li class="pets__slider-slide swiper-slide">
               <div class="pet">
+                <div class="pet__head">
+                  <div class="pet__genes">
+                    <picture>
+                      <source type='image/webp' srcset='img/genes/electro.webp'>
+                      <img width='24' height='24' src='img/genes/electro.png' alt='ген электрический'>
+                    </picture>
+                  </div>
+                </div>
                 <div class="pet__image">
                   <picture>
-                    <source type='image/webp' srcset='img/pets/Fizer.webp'>
-                    <img width='228' height='354' src='img/pets/Fizer.png' alt='файзер'>
+                    <source type='image/webp' srcset='img/pets/Tanderlon.webp'>
+                    <img width='228' height='354' src='img/pets/Tanderlon.png' alt='ТАНДЕРЛОН'>
                   </picture>
                 </div>
-              </div>
-            </li>
-            <li class="pets__slider-slide swiper-slide">
-              <div class="pet">
-                <div class="pet__image">
-                  <picture>
-                    <source type='image/webp' srcset='img/pets/Ignis.webp'>
-                    <img width='228' height='354' src='img/pets/Ignis.png' alt='игнис'>
-                  </picture>
+                <div class="pet__info">
+                  <div class="pet__name">ТАНДЕРЛОН </div>
+                  <a class="pet__details" href="#">ПОДРОБНЕЕ</a>
                 </div>
               </div>
             </li>
           </ul>
-          <div class="pets__arrow pets__arrow-next"></div>
+          <div class="pets__slider-arrow pets__slider-arrow--next">
+            <svg width='41' height='59'>
+              <use href='img/sprite/sprite.svg#chevron'></use>
+            </svg>
+          </div>
         </div>
       </section>
 

@@ -13,9 +13,12 @@
     height: 100%;
   }
 
-  &__nav {
-    font-size: 16px;
+  &__navigations {
     padding: 44px 0 58px;
-    background-color: red;
+    display: flex;
+    align-items: stretch;
+    grid-gap: 110px;
   }
+
+
 }

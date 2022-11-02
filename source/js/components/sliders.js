@@ -8,8 +8,8 @@ let sliderBestConfectioner = new Swiper(".pets__slider", {
   freeMode: true,
   loop: true,
   navigation: {
-      nextEl: ".best__slider-btn--next",
-      prevEl: ".best__slider-btn--prev",
+      nextEl: ".pets__slider-arrow--next",
+      prevEl: ".pets__slider-arrow--prev",
       clickable: true,
   },
   // breakpoints: {
