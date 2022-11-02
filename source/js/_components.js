@@ -4,6 +4,7 @@ import './components/burger.js';
 import './components/spollers.js';
 import './components/tabs.js';
 import './components/modals.js';
+import './components/anchor';
 
 
 

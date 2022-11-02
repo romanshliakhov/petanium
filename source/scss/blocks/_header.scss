@@ -36,6 +36,8 @@
     display: flex;
     align-items: center;
     grid-gap: 36px;
+    padding-left: 35px;
+    padding-right: 15px;
     border-bottom: 2px solid #029fdf;
     background-color: rgba(26, 34, 44, 0.8);
     z-index: 1;
@@ -45,7 +47,6 @@
     display: flex;
     align-items: center;
     grid-gap: 36px;
-    padding-left: 35px;
   }
 
   &__links {
