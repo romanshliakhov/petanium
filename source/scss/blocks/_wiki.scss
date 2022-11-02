@@ -20,5 +20,31 @@
     grid-gap: 110px;
   }
 
+  &__nav-title {
+    margin-bottom: 20px;
+    font-family: var(--font-family-futura);
+    font-size: 15px;
+    line-height: 120%;
+    text-transform: uppercase;
+    // color: var(--color-white);
+    color: #cdf3ff;
+  }
+
+  &__nav-list {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+  }
+
+  &__nav-item {
+    font-family: var(--font-family-opensans);
+    font-size: 14px;
+    line-height: 120%;
+    color: rgba(0, 172, 255, 0.4);
+  }
 
 }
+
+
+
+

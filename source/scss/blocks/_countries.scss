@@ -1,0 +1,9 @@
+.countries {
+  border-top: 1px solid #029fdf;
+  border-bottom: 6px solid #029fdf;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
