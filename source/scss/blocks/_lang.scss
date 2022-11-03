@@ -21,7 +21,8 @@
     opacity: 0;
 
     &:checked ~ .lang__name {
-      color: #7bc6dd;
+      color: #cbf3ff;
+
       letter-spacing: 1.1px;
   }
 
@@ -31,7 +32,7 @@
     font-family: var(--font-family-tahoma);
     font-size: 12px;
     line-height: 120%;
-    color: #cbf3ff;
+    color: #7bc6dd;
     transition: all 0.3s ease;
   }
 }
